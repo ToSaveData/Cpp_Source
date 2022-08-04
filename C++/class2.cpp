@@ -8,10 +8,11 @@ public:
 
 class Chulsoo{
 public:
-	int Eat(int);
+	int Eat(int=20000);
 };
 
 //철수가 먹은 스테이크 가격을 받아서 반환하는 함수 정의
+//int Chulsoo::Eat(int SteakNum=20000) 구현부에서는 초기화하면 안 된다.
 int Chulsoo::Eat(int SteakNum) 
 {
 	SteakNum = 10000; // 철수가 10000원짜리 스테이크를 먹었다고 거짓말
