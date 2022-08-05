@@ -7,12 +7,12 @@ using namespace std;
 //	
 //};
 
-class Chulsoo{
+class Chulsoo {
 public:
 	//int Eat(int=20000);
 	void Eat(int SteakWeight);
 	inline void EatInline(int SteakWeight); // 인라인함수 선언
-	
+
 };
 
 
@@ -44,7 +44,7 @@ int main(void)
 
 void Chulsoo::Eat(int SteakWeight)
 {
-	cout << "Eat()::철수는" << SteakWeight 
+	cout << "Eat()::철수는" << SteakWeight
 		<< "g 짜리 스테이크를 먹는다" << endl;
 }
 
