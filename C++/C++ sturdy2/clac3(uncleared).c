@@ -16,7 +16,7 @@ int main()
 	calType data;
 	char i;
 	
-	scanf("%f%c%f=", &a, &i, &b);
+	scanf("%f%c%f=", &data.x, &i, &data.y);
 
 	if (i == '+')
 	{
