@@ -33,7 +33,7 @@
     <ClCompile Include="calc2.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="clac3%28uncleared%29.c">
+    <ClCompile Include="clac3.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="calc4.c">

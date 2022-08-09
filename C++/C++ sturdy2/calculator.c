@@ -9,8 +9,13 @@ int main()
 {
 	float a, b;
 	char i;
+	do {
+		
+		scanf("%f%c%f=", &a, &i, &b);
+		if(b == 0 && i =='/')
+		printf("0으로 나눌 수 없습니다.\n");
+	} while (b == 0 && i == '/');
 	
-	scanf("%f%c%f=", &a, &i, &b);
 
 	if (i == '+')
 	{
@@ -29,13 +34,6 @@ int main()
 
 	else if(i == '/')
 	{
-		do {
-			printf("0으로 나눌 수 없습니다.\n");
-			scanf("%f%c%f=", &a, &i, &b);
-			
-		} while (b == 0);
-
-
 		printf("%.2f / %.2f = %.2f", a, b, a/b);
 	}
 
