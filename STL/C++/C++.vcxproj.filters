@@ -15,64 +15,32 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="test01.cpp">
+    <ClCompile Include="copyconstructor.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="실습1.cpp">
+    <ClCompile Include="Copy.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="실습2.cpp">
+    <ClCompile Include="deppcopy.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="실습3.c">
+    <ClCompile Include="MemoryLeak.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="delete.cpp">
+    <ClCompile Include="friend.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="M_PI.c">
+    <ClCompile Include="static.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="M_PI.cpp">
+    <ClCompile Include="overloading.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="ofstream.cpp">
+    <ClCompile Include="overloading2.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="ifstream.cpp">
+    <ClCompile Include="overloading3.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="class.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="class2.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="typeretrict.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="default.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="compare.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="compare.h">
-      <Filter>헤더 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="소스.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="CopyCreator.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="header1.h">
-      <Filter>헤더 파일</Filter>
-    </ClInclude>
-    <ClInclude Include="header2.h">
-      <Filter>헤더 파일</Filter>
-    </ClInclude>
   </ItemGroup>
 </Project>
