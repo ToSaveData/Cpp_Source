@@ -35,11 +35,11 @@ public:
 
 
 };
-Person(const Person& copy) : age(copy.age)
-{
-	name = new char[strlen(copy.name) + 1];
-	strcpy(name, copy.name);
-}
+//Person(const Person& copy) : age(copy.age)
+//{
+//	name = new char[strlen(copy.name) + 1];
+//	strcpy(name, copy.name);
+//}
 
 int main()
 {
