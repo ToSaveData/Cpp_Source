@@ -1,4 +1,3 @@
-#pragma once
 #ifndef _GEOMETRIC_OBJECT_H_
 #define _GEOMETRIC_OBJECT_H_
 
