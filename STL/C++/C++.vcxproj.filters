@@ -69,6 +69,9 @@
     <ClCompile Include="동적할당의 이유3.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="arrayclass.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="동적할당의이유.h">
