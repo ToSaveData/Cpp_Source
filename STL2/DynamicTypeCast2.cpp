@@ -43,14 +43,14 @@ void DisplayGeometricObject(GeometricObject& object)
 	if (p1 != nullptr)
 	{
 		p1->AreaCalculation();
-		//p2->Compute();
+		p1->RoundCalculation();
 		cout << "이등변 삼각형의 넓이: " << p1->GetArea() << endl;
 		cout << "이등변 삼각형의 등변: " << p1->GetRound() << endl;
 	}
 	if (p2 != nullptr)
 	{
 		p2->AreaCalculation();
-		//p2->Compute();
+		p2->RoundCalculation();
 		cout << "사각형의 넓이: " << p2->GetArea() << endl;
 		cout << "사각형의 등변: " << p2->GetRound() << endl;
 	}
@@ -59,7 +59,7 @@ void DisplayGeometricObject(GeometricObject& object)
 int main()
 {
 	Isosceles p1(9, 15);
-	Isosceles p2(10, 12);
+	Rectangle p2(10, 12);
 
 	DisplayGeometricObject(p1);
 	cout << "*******************************************" << endl;
