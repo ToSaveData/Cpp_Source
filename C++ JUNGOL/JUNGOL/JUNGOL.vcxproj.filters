@@ -30,5 +30,11 @@
     <ClCompile Include="pibonachi.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="numberBaseball.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="plate.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
