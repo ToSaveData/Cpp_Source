@@ -9,8 +9,8 @@ struct NODE
 
 NODE* push(NODE * parent, int data)
 {
-	NODE* node = (NODE*)malloc(sizeof(NODE*));
-	if (node == NULL) return 0;
+	NODE* node = (NODE*)malloc(sizeof(NODE));
+	
 	node->data = data;
 	node->next = NULL;
 	if(parent != NULL)
@@ -53,7 +53,7 @@ void remove(NODE* head, int data)
 	}
 }
 
-void removeall(NODE* head)
+void removeAll(NODE* head)
 {
 	NODE* next = NULL;
 	for (NODE* curr = head->next; curr != NULL; curr = next)
@@ -86,12 +86,12 @@ NODE* find(NODE* head, int data)
 	return curr;
 }
 
-
+#if 0
 int main()
 {
-	NODE* head = (NODE*)malloc(sizeof(NODE*));
-	NODE* node1 = (NODE*)malloc(sizeof(NODE*));
-	NODE* node2 = (NODE*)malloc(sizeof(NODE*));
+	NODE* head = (NODE*)malloc(sizeof(NODE));
+	NODE* node1 = (NODE*)malloc(sizeof(NODE));
+	NODE* node2 = (NODE*)malloc(sizeof(NODE));
 	if (head == NULL) return 0;
 	if (node1 == NULL) return 0;
 	if (node2 == NULL) return 0;
@@ -114,3 +114,37 @@ int main()
 	return 0;
 }
 
+#else
+int main()
+{
+	NODE* hash[20];
+	NODE* head = push(NULL, 0);
+	NODE* node = head;
+
+	for (int i = 1; i < 100; i++) {
+		node = push(node, i);
+	}
+	printList(head);
+	printf("===================================\n");
+
+	for (int i = 1; i < 50; i += 2) {
+		remove(head, i);
+	}
+
+	printList(head);
+	printf("===================================\n");
+	/*
+		for(int i = 0; i < 10; i++)
+			printf("hash[] : %p\n", hash[i]);
+	*/
+	node = find(head,98);
+	if (node != NULL)
+	printf("%d\n", node->data);
+
+	removeAll(head);
+
+	printList(head);
+
+	return 0;
+}
+#endif
